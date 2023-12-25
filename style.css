@@ -1,0 +1,182 @@
+/* Global Styles */
+* {
+    background-color: black;
+    line-height: 1.25;
+}
+
+body {
+    color: rgb(86, 86, 86);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-wrap: wrap;
+    padding: 50px
+}
+
+/* Layout Containers */
+.container {
+    justify-content: center;
+    background-color: whitesmoke;
+    column-count: 2;
+    column-fill: balance;
+    column-gap: 20px;
+    column-width: 500px;
+    height: auto;
+    max-height: 850px;
+    min-width: 500px;
+    justify-content: start;
+    text-align: left;
+    overflow: scroll;
+    scrollbar-color: grey;
+    scrollbar-width: thin;
+}
+
+/* Typography */
+.text, li, strong {
+    background-color: whitesmoke;
+}
+
+.title {
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+.h1title {
+    font-size: 40px;
+    padding: 1em;
+    position: absolute;
+    width: 500px;
+}
+
+#desc {
+    color: black;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 5%;
+    text-wrap: wrap;
+}
+
+/* Links */
+a {
+    color: rgb(226, 226, 226);
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(226, 226, 226);
+}
+
+a:hover {
+    color: rgb(211, 132, 106);
+}
+
+/* List Styles */
+li a {
+    padding: 1em;
+}
+
+.index {
+    list-style: none;
+    padding: 40px 0 40vmin;
+}
+
+#front li {
+    padding: 1.5em;
+}
+
+/* Image Styles */
+img {
+    height: auto;
+    max-height: 850px;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Text Elements */
+p {
+    padding-top: 10%;
+    text-wrap: pretty;
+}
+
+h1, h2 {
+    background-color: black;
+    color: whitesmoke;
+}
+
+h2 {
+    background-color: rgb(220, 219, 216);
+    color: darkslategray;
+}
+
+/* Lists */
+ul, ol {
+    padding-right: 20%;
+}
+
+/* Specific Content */
+div.recipe-content {
+    font-size: 15px;
+}
+
+/* Footer Styles */
+footer {
+    bottom: 20px;
+    position: absolute;
+    right: 70px;
+    text-align: right;
+}
+
+.home {
+    padding: 1em;
+}
+
+.help {
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+
+/* Responsive Design (Example Media Query) */
+@media (max-width: 600px) {
+    /* Responsive styles here */
+    .container {
+        justify-content: center;
+        background-color: whitesmoke;
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    body {
+    color: rgb(86, 86, 86);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-wrap: wrap;
+    padding: 20px;
+    }
+
+    /* Footer Styles */
+footer {
+    bottom: 20px;
+    position: absolute;
+    right: 70px;
+}
+
+.home {
+    font-size: small;
+    text-justify: distribute;
+}
+
+p {
+    padding: 1em;
+}
+
+h2 {
+    padding-left: 1em;
+}
+
+
+}
